@@ -22,6 +22,7 @@ The [`kafka-with-kraft.yaml`](./kafka-with-kraft.yaml) deploys a Kafka cluster w
 The [`kafka-with-dual-role-kraft-nodes.yaml`](./kafka-with-dual-role-kraft-nodes.yaml) deploys a Kafka cluster with one pool of KRaft nodes that share the _broker_ and _controller_ roles.
 
 _NOTE: To use this example, you have to enable the `UseKRaft` feature gate in addition to the `KafkaNodePools` feature gate._
+[>> how to enable Kraft mode](https://github.com/ngtszman/documentation/blob/main/strimzi-operator)
 
 Please be aware that ZooKeeper-less Kafka is still a work in progress and is still missing many features.
 For example:
